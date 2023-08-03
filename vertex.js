@@ -5,7 +5,7 @@ require("dotenv").config();
 const autoComplete = async (history, output_user) => {
  
   const configuration = new Configuration({
-    apiKey:"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",
+    apiKey:"your_openai_apikey",
   });
   const openai = new OpenAIApi(configuration);
   try { 
